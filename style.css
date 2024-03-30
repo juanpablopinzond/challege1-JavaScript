@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, red, blue);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+fieldset {
+    color: white;
+    box-shadow: 1px 1px 1px white;
+    transition: transform 1s;
+}
+
+fieldset:hover {
+    transform: translateX(10px);
+}
